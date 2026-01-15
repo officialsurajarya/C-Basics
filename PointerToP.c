@@ -6,6 +6,8 @@ int main() {
     int *ptr = &x;
     int **pptr = &ptr;
 
+    //* use for value
+    //& use for address
     
     printf("%d",**pptr);
 }
